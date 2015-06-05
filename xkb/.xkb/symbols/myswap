@@ -1,15 +1,7 @@
 partial modifier_keys
-xkb_symbols "swap_l_shift_ctrl" {
-    replace key <LCTL>  { [ Shift_L ] };
-    replace key <LFSH> { [ Control_L ] };
-};
-
 xkb_symbols "swap_lwin_to_lalt" {
-    
-    replace key <RWIN>  { [ AltGr ] };
-
-
+    replace key <RWIN>  { [ ISO_Level3_Shift ] };
     replace key <LWIN> { [ Alt_L ] };
+    replace key <LALT> { [ Super_L, Menu ]};
+    replace key <RALT> { [  Super_L ]};
 };
-
-
