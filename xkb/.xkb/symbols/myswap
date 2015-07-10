@@ -4,4 +4,5 @@ xkb_symbols "swap_lwin_to_lalt" {
     replace key <LWIN> { [ Alt_L ] };
     replace key <LALT> { [ Super_L, Menu ]};
     replace key <RALT> { [  Super_L ]};
+    replace key <CAPS> { [ Control_R ]};
 };
