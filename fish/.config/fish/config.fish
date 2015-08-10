@@ -1,0 +1,9 @@
+alias l='ls -al'
+alias ..='cd ..'
+alias ...='cd ..;cd ..'
+alias gr=gradle
+alias e=subl
+alias c=cat
+alias cdp='cd ~/projects'
+alias kill-all-jdk="ps -ef | grep jdk | awk '{print $2}' | xargs kill -9"
+alias xclip='xclip -selection c'
